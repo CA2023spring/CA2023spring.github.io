@@ -1,0 +1,616 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="the web page of Computer Architecture Course">
+    <meta name="keywords" content="computer, architecture, course, webpage, ustc">
+    <meta name="author" content="Hazirguo, haifenglinying">
+
+    <title>
+        欢迎访问计算机体系结构课程主页！ 
+    </title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Documentation extras -->
+    <link href="./assets/css/docs.min.css" rel="stylesheet">
+    <!--[if lt IE 9]><script src="../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+                                   <link rel="shortcut icon" href="../assets/ico/favicon.ico">
+
+
+  </head>
+  <body class="bs-docs-home">
+    <a class="sr-only" href="#content">Skip to main content</a>
+
+    <!-- Docs master nav -->
+    <header class="navbar navbar-static-top bs-docs-nav" id="top" role="banner">
+      <div class="container">
+        <div class="navbar-header">
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="./" class="navbar-brand">Computer Architecture</a>
+        </div>
+        <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+          <ul class="nav navbar-nav">
+            <li class="active">
+              <a href="./">Home</a>
+            </li>
+            <li>
+              <a href="./coursework">Coursework</a>
+            </li>
+            <li>
+              <a href="./experiments">Experiments</a>
+            </li>
+            <li>
+              <a href="./materials">Materials & References</a>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <!-- <li><a href="./blog"><strong>Blog</strong></a></li>
+            <li><a href="./about">About</a></li> -->
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+
+<!-- Page content of course! -->
+<main class="bs-docs-masthead" id="content" role="main">
+  <div class="container">
+    
+    <h1>Computer Architecture</h1>
+    <br/>
+    <p class="lead">Spring 2023, USTC</p>
+
+  </div>
+</main>
+
+
+<div>
+  <p></p>
+  <div class="container">
+    <div class="col-sm-3">
+
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">时间地点</h3>
+        </div>
+        <div class="panel-body">
+          <p>3C201: 2(3,4); 5(3,4)</p>
+        </div>
+      </div>
+
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">课程主讲</h3>
+        </div>
+        <div class="panel-body">
+          周学海（xhzhou@ustc.edu.cn）
+        </div>
+      </div>
+
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">课程助教</h3>
+        </div>
+        <div class="panel-body">		
+		      <p>付  薇 1812141672</p>		  
+        </div>
+      </div>
+	  
+	  <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">联系方式</h3>
+        </div>
+        <div class="panel-body">		
+          <p>地址：高能效智能计算实验室（西区活动中心北一层）</p>
+          <p>课程群号：653702928</p>
+        </div>
+      </div>
+	  
+    </div><!-- /.col-sm-3 -->
+
+
+    <div class="col-sm-9">
+
+      <div class="well">
+        <p>
+          Welcome to the Spring 2023 Computer Architecture web page.
+          The course is intended to provide a foundation for students interested in 
+          performance programming, compilers, and operating systems, 
+          as well as computer architecture and engineering.
+          Our goal is for you to better understand how software interacts with hardware, 
+          and to understand how trends in technology, applications, and economics drive continuing changes in the field. 
+          The course will cover the different forms of parallelism found in applications 
+          (instruction-level, data-level, thread-level, request-level) 
+          and how these can be exploited with various architectural features. 
+          We will cover pipelining, superscalar, speculative and out-of-order execution, vector machines, 
+          VLIW machines, multithreading, graphics processing units, and parallel microprocessors. 
+          We will also explore the design of memory systems including caches, virtual memory, and DRAM.
+        </p>
+      </div>
+      
+      <div >
+        <h3>Course Calendar with Handouts</h3>
+      </div>
+
+      <!-- <div class="alert alert-danger">
+        <p><strong>最新通知：</strong> gem5-lab1,gem5-lab2,verilog-lab1,verilog-lab2已发布</p>
+        <p><strong>verilog-lab发布地址：</strong> https://git.lug.ustc.edu.cn/enszhou/calab-verilog/</p>
+        <p><strong>gem5-lab发布地址：</strong> https://git.lug.ustc.edu.cn/fenggang233/calab-gem5</p>
+      </div> -->
+  
+	<div>
+	  
+        <table class="table table-bordered table-hover">
+          <thead>
+            <tr>
+              <th>
+                <b>Week</b>
+              </th>
+              <th>
+                <b>Lecture Topic</b>
+              </th>
+              <th>
+                <b>Readings 5th Edition</b>
+              </th>
+              <th>
+                <b>Readings 6th Edition</b>
+              </th>
+              <th>
+                <b>Assignments</b>
+              </th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td rowspan="2">1</td>
+              <td>
+                1-1 体系结构简介
+              </td>
+              <td>
+                Ch. 1 
+              </td>
+              <td>
+                Ch. 1
+              </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>
+                1-2 发展历史、现状及趋势
+              </td>
+              <td>
+                Ch. 1 
+              </td>
+              <td>
+                Ch. 1
+              </td>
+              <td> </td>
+            </tr>
+			
+			<tr>
+              <td rowspan="2">2</td>
+              <td>
+                1-3 定量分析基础 
+              </td>
+              <td>
+                Ch. 1 
+              </td>
+              <td>
+                Ch. 1
+              </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>
+                2-1 ISA的基本概念 
+              </td>
+              <td>
+                Appendix A 
+              </td>
+              <td>
+                Appendix A 
+              </td>
+			  <td>
+              </td>
+            </tr>
+			
+			<tbody>
+            <tr>
+              <td rowspan="2">3</td>
+              <td>
+                2-2 ISA的功能设计 
+              </td>
+              <td>
+                Appendix A 
+              </td>
+              <td>
+                Appendix A 
+              </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>
+                2-3 ISA的实现 
+              </td>
+              <td>
+                Appendix A 
+              </td>
+              <td>
+                Appendix A 
+              </td>
+			  <td>
+              </td>
+            </tr>
+            
+            <tr>
+              <td rowspan="2">4</td>
+              <td>
+                3-1 基本流水线、性能评估 
+              </td>
+              <td>
+                Appendix C 
+              </td>
+              <td>
+                Appendix C 
+              </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>
+                3-2 基本流水线的扩展 
+              </td>
+              <td>
+                Appendix C 
+              </td>
+              <td>
+                Appendix C 
+              </td>
+              <td> </td>
+            </tr>
+            
+            <tr>
+              <td rowspan="2">5</td>
+              <td>
+                4-1 Cache的基本概念 
+              </td>
+              <td>
+                Appendix B.1-B.2, Ch.2.1 
+              </td>
+              <td>
+                Appendix B.1-B.2, Ch.2.1 
+              </td>
+              <td> 
+              </td>
+            </tr>
+            <tr>
+              <td>
+                4-2 Cache的优化方法I 
+              </td>
+              <td>
+                Appendix B.3, Ch.2.2
+              </td>
+              <td>
+                Appendix B.3, Ch.2.2 
+              </td>
+	      <td>
+              </td>
+            </tr>
+            
+            <tr>
+              <td rowspan="2">6</td>
+              <td>
+                4-3 Cache的优化技术II 
+              </td>
+              <td>
+                Appendix B, Ch.2.2 
+              </td>
+              <td>
+                Appendix B, Ch.2.2 
+              </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>
+                4-4-1 Cache的优化方法III;4-4-2 存储技术及优化
+              </td>
+              <td>
+                Appendix B.3, Ch.2.2-2.3 
+              </td>
+              <td>
+                Appendix B.3, Ch.2.2-2.3 
+              </td>
+              <td> </td>
+            </tr>
+            
+            <tr>
+              <td rowspan="2">7</td>
+              <td>
+                4-5 虚拟存储 （2学时） 
+              </td>
+              <td>
+                Appendix B.4, Ch.2.4 
+              </td>
+              <td>
+                Appendix B.4, Ch.2.4 
+              </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>
+                5-1 ILP的基本概念及静态指令流调度 
+              </td>
+              <td>
+                Ch.3.1-3.2 
+              </td>
+              <td>
+                Ch.3.1-3.2 
+              </td>
+              <td>
+              </td>
+            </tr>
+            
+            <tr>
+              <td rowspan="2">8</td>
+              <td>
+                5-2 动态指令流调度 I 
+              </td>
+              <td>
+                Ch.3.4-3.5 
+              </td>
+              <td>
+                Ch.3.4-3.5 
+              </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>
+                5-2 动态指令流调度 II 
+              </td>
+              <td>
+                Ch.3.4-3.5 
+              </td>
+              <td>
+                Ch.3.4-3.5 
+              </td>
+              <td>
+              </td>
+            </tr>
+            
+            <tr>
+              <td rowspan="2">9</td>
+              <td>
+                5-4 分支预测
+              </td>
+              <td>
+                Ch.3.3, 3.9-3.10
+              </td>
+              <td>
+                Ch.3.3, 3.9-3.10 
+              </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>
+                5-5 推断执行
+              </td>
+              <td>
+                Ch.3.6, 3.9 
+              </td>
+              <td>
+                Ch.3.6, 3.9 
+              </td>
+              <td>
+              </td>
+            </tr>
+            
+            <tr>
+              <td rowspan="2">10</td>
+              <td>
+                5-6 存储器访问冲突、多发射 
+              </td>
+              <td>
+                Ch.3.7-3.8 
+              </td>
+              <td>
+                Ch.3.7-3.8 
+              </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>
+                5-7 多线程技术
+              </td>
+              <td>
+                Ch.3.12 
+              </td>
+              <td>
+                Ch.3.12 
+              </td>
+              <td>
+              </td>
+            </tr>
+            
+            <tr>
+              <td rowspan="2">11</td>
+              <td>
+                6-1 向量处理机模型 I 
+              </td>
+              <td>
+                Ch.4.1-4.3(Appendix G) 
+              </td>
+              <td>
+                Ch.4.1-4.3(Appendix G) 
+              </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>
+              </td>
+              <td>
+              </td>
+              <td>
+              </td>
+              <td>
+              </td>
+            </tr>
+
+            <tr>
+              <td rowspan="2">12</td>
+              <td>
+                实验及习题 
+              </td>
+              <td> 
+              </td>
+              <td>
+              </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>
+                6-2 向量处理机模型 II 
+              </td>
+              <td>
+                Ch.4.1-4.3(Appendix G) 
+              </td>
+              <td>
+                Ch.4.1-4.3(Appendix G) 
+              </td>
+              <td>
+              </td>
+            </tr>
+            
+            <tr>
+              <td rowspan="2">13</td>
+              <td>
+                6-3 GPU-I  
+              </td>
+              <td>
+                Ch. 4.4-4.9 
+              </td>
+              <td>
+                Ch. 4.4-4.9 
+              </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>
+                6-4 GPU-II 
+              </td>
+              <td>
+                Ch. 4.4-4.9 
+              </td>
+              <td>
+                Ch. 4.4-4.9 
+              </td>
+              <td>
+              </td>
+            </tr>
+
+            <tr>
+              <td rowspan="2">14</td>
+              <td>
+                7-1 存储一致性 I
+              </td>
+              <td>
+                Ch. 5.1-5.4  
+              </td>
+              <td>
+                Ch. 5.1-5.4 
+              </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>
+                7-2 存储一致性 II 
+              </td>
+              <td>
+                Ch. 5.1-5.4 
+              </td>
+              <td>
+                Ch. 5.1-5.4 
+              </td>
+              <td>
+              </td>
+            </tr>
+
+            <tr>
+              <td rowspan="2">15</td>
+              <td>
+                7-3 存储一致性 III 
+              </td>
+              <td>
+                Ch. 5.1-5.4 
+              </td>
+              <td>
+                Ch. 5.1-5.4 
+              </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>
+                7-4 存储同一性 
+              </td>
+              <td>
+                Ch. 5.1 && 5.5-5.6 
+              </td>
+              <td>
+                Ch. 5.1 && 5.5-5.6 
+              </td>
+              <td>
+              </td>
+            </tr>
+			
+          </tbody>
+
+        </table>
+		
+      </div>
+    </div><!-- /.col-sm-9 -->
+
+  </div>  <!-- container -->
+
+</div> <!-- bs-main -->
+
+
+    <!-- Footer
+================================================== 
+<footer class="bs-docs-footer" role="contentinfo">
+  <div class="container">
+
+    <p>Designed and built with the <a href="http://getbootstrap.com/" target="_blank">bootstrap theme</a> by guohailin.</p>
+    <p>Acknowledge to Berkeley CS152 <a href="https://inst.eecs.berkeley.edu/~cs152/sp13/" target="_blank">web page</a>! </p>
+    <p>Code licensed under <a href="https://github.com/hazirguo/ca2014/blob/master/LICENSE" target="_blank">MIT</a>, blog under <a href="http://creativecommons.org/licenses/by/3.0/" target="_blank">CC BY 3.0</a>.</p>
+
+  </div>
+</footer>
+-->
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="./assets/js/jquery.min.js"></script>
+<script src="./assets/js/bootstrap.min.js"></script>
+<script src="./assets/js/docs.min.js"></script>
+
+  </body>
+</html>
